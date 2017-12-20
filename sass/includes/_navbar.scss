@@ -1,0 +1,88 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+#navbar{
+  .topNavBar{
+    padding: 25px 0px;
+    background: #084884;
+    margin: 0 -15px;
+    color: white;
+    button{
+      width: 210px;
+      border-radius: 30px;
+      background: #42a4ff;
+      padding: 10px;
+      border: none;
+      &:hover{
+        background: #e6e6e6;
+        opacity: 1.2;
+      }
+    }
+    i{
+      margin: 5px;
+      font-size: 1.4em;
+      color: lighten(#084884,20%);
+      cursor: pointer;
+      &:hover{
+        color: white;
+      }
+    }
+  }
+  .mainNavBar{
+    width: 100%;
+    padding: 25px 0px;
+    background: lighten(#084884,20%);
+    margin: 0 -15px;
+    display: inline-block;
+    color: white;
+.circle1{
+  width: 50px;
+  height: 50px;
+  background: #084884;
+  border-radius: 30px;
+  padding: 13px ;
+  display: inline-block;
+ }
+ i{
+   font-size: 1.8em;
+ }
+ p{
+
+   display: inline-block;
+ }
+.circle2{
+  width: 50px;
+  height: 50px;
+  background: #084884;
+  border-radius: 30px;
+  padding: 13px ;
+  display: inline-block;
+ }
+ i{
+   font-size: 1.8em;
+ }
+ p{
+   margin-left: 20px;
+   display: inline-block;
+ }
+.circle3{
+  width: 50px;
+  height: 50px;
+  background: #084884;
+  border-radius: 30px;
+  padding: 13px ;
+  display: inline-block;
+ }
+ i{
+   font-size: 1.8em;
+ }
+ p{
+
+   display: inline-block;
+  }
+ }
+.dropdown-toggle{
+  color: red;
+ }
+}

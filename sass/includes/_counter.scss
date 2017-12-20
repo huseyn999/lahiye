@@ -1,0 +1,46 @@
+#count{
+  .counter{
+    .bl{
+    	float: left;
+    	width: 270px;
+    	margin-left: 60px;
+    	padding: 80px 20px;
+      /*background: yellow;*/
+      i{
+        color: #4d94ff;
+        font-size: 4em;
+        margin-left: 50px;
+      }
+      .number{
+      	font-size: 2em;
+      	padding:  35px;
+      	font-weight: bold;
+      }
+        .line{
+        width: 40px;
+        height: 2px;
+          float: left;
+        background: #4d94ff;
+        margin-left: 60px;
+        margin-top: -20px;
+      }
+      .number1{
+      	font-size: 2em;
+      	padding:  35px;
+        margin-left: 20px;
+      	font-weight: bold;
+      }
+      .number2{
+      	font-size: 2em;
+      	padding:  35px;
+        margin-left: 5px;
+      	font-weight: bold;
+      }
+      .number3{
+      	font-size: 2em;
+      	padding:  35px;
+      	font-weight: bold;
+      }
+    }
+  }
+}

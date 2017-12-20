@@ -1,0 +1,58 @@
+#tools{
+  width: 100%;
+  height: 800px;
+
+  float: left;
+  h1{
+    color: black;
+    margin-left: 360px;
+    margin-top: 100px;
+    font-size: 4em;
+  }
+  .line{
+    width: 50px;
+    border-bottom: 2px solid #42a4ff;
+    margin-left: 740px;
+    margin-top: 10px;
+    float: left;
+  }
+  .box1{
+    width: 250px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 53px;
+    background: black;
+    display: inline-block;
+  }
+  .box2{
+    width: 250px;
+    height: 200px;
+    background: black;
+    margin-top: -430px;
+    display: inline-block;
+  }
+  .box3{
+    width: 250px;
+    height: 200px;
+    background: black;
+    margin-top: -400px;
+    display: inline-block;
+  }
+  .box4{
+    width: 250px;
+    height: 200px;
+    background: black;
+    margin-top: -400px;
+    display: inline-block;
+  }
+  button{
+    width: 300px;
+    padding: 15px;
+    border-radius: 40px;
+    background: #42a4ff;
+    color: white;
+    margin-top: 130px;
+    margin-left: 600px;
+    font-size: 1.3em;
+  }
+}

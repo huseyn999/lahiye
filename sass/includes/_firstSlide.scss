@@ -1,0 +1,72 @@
+#slider{
+	height: 420px;
+	.firstImage, .secondImage, .thirdImage{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		img{
+			width: 100%;
+		}
+		.slideText{
+			width: 712px;
+			height: 300px;
+			position: absolute;
+			top: 30px;
+			left: 110px;
+		p{
+			position: absolute;
+			font-weight: bold;
+			z-index: 5;
+			font-size: 55px;
+			line-height: 1.2;
+		}
+		span{
+			position: absolute;
+			font-style: italic;
+			z-index: 5;
+			font-size: 25px;
+			top: 175px;
+			color: #777;
+		}
+		button{
+			position: absolute;
+			z-index: 5;
+			top: 270px;
+			background: #42a4ff;
+			border-radius: 50px;
+			padding: 15px 35px;
+			text-transform: uppercase;
+			font-weight: bold;
+			border:none;
+
+		&:hover{
+			background: #1872c5;
+			transition: .7s ease;
+		}
+		}
+		.dots{
+			width: 100px;
+			height: 30px;
+			position: absolute;
+			z-index: 5;
+			top: 350px;
+			.dotFirst, .dotSecond, .dotThird{
+				width: 12px;
+				height: 12px;
+				margin: 5px;
+				display: inline-block;
+				border-radius: 100%;
+				background: #777;
+				cursor: pointer;
+				&:visited{
+					background: #42a4ff;
+				}
+			}
+
+		}
+
+		}
+	}
+
+}
